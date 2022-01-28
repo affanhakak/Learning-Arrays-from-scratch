@@ -161,7 +161,7 @@ eatables [1][1] = "chicken" // ist array, ist item
 eatables[0][0] = "pizza" // zeroth array, zeroth item 
 eatables [2][2] = "vankies" // second array, second item
 
-//flatting an array
+//flattening an array
 const eatables =[
     ["pizza", "burger", "sandwich"],
     ["cheese", "chicken", "mutton"],
@@ -169,3 +169,6 @@ const eatables =[
 ];
 eatables.flat();
 eatables = ["pizza", "burger", "sandwich", "cheese", "chicken", "mutton", "Dominos", "Burger-King", "Vankies"]
+
+
+
